@@ -182,12 +182,12 @@ const Home = () => {
   return (
     <div className="min-h-screen w-screen overflow-hidden  bg-black-900">
       {/* Hero Section with Image Slider */}
-      <section className="relative w-screen h-[90vh] sm:h-screen">
+      <section className="relative w-screen h-[110vh] sm:h-screen">
         <ImageSlider slides={slides} />
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 sm:py-16 lg:py-20">
+      <section className="py-12 sm:py-16 mt-0 sm:mt-6 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {stats.map((stat, index) => (
