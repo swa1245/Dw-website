@@ -403,7 +403,7 @@ const Home = () => {
         {/* WhatsApp Contact Button */}
         <section className="fixed bottom-6 right-6 z-10">
           <a
-            href="https://wa.me/9552431626"
+            href="https://wa.me/9028954278"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white w-16 h-16 rounded-full shadow-xl hover:scale-110 hover:shadow-2xl transition duration-300 transform"
