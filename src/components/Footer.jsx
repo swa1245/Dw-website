@@ -12,8 +12,8 @@ const Footer = () => {
     ],
     resources: [
       { name: 'Blog', path: '/blog' },
-      { name: 'FAQs', path: '/faqs' },
-      { name: 'Testimonials', path: '/Team' },
+      // { name: 'FAQs', path: '/faqs' },
+      // { name: 'Testimonials', path: '/Team' },
       { name: 'Contact', path: '/contact' },
     ],
     social: [

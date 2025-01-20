@@ -143,15 +143,7 @@ const ERPSystems = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            {tools.map((tool, index) => (
-              <div 
-                key={index}
-                className="px-4 py-2 bg-dark-800/50 backdrop-blur-sm rounded-full border border-dark-700"
-              >
-                <span className="text-xl mr-2">{tool.icon}</span>
-                <span className="font-medium">{tool.name}</span>
-              </div>
-            ))}
+            
           </motion.div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-dark-900/60 to-dark-900/90"></div>

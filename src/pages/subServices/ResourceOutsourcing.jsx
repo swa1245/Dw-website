@@ -139,14 +139,14 @@ const ResourceOutsourcing = () => {
         </div>
       </div> */}
       <motion.div
-        className="ai-hero relative flex items-center justify-center overflow-hidden"
+        className=" h-[60vh] relative flex items-center justify-center overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
+            src="https://img.freepik.com/free-photo/business-person-looking-finance-graphs_23-2150461316.jpg?ga=GA1.1.402563534.1736440284&semt=ais_incoming"
             alt="AI & Machine Learning"
             className="w-full h-full object-cover"
           />
@@ -223,7 +223,7 @@ const ResourceOutsourcing = () => {
           {expertise.map((area, index) => (
             <div
               key={index}
-              className="bg-orange-800/40 border border-orange-700/50 rounded-xl overflow-hidden"
+              className="bg-black-800/40 border border-black-700/50 rounded-xl overflow-hidden"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
@@ -262,7 +262,7 @@ const ResourceOutsourcing = () => {
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-orange-800/40 border border-orange-700/50 rounded-xl p-6"
+              className="bg-black-800/40 border border-black-700/50 rounded-xl p-6"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

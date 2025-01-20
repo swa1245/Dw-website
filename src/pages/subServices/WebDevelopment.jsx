@@ -90,20 +90,20 @@ const WebDevelopment = () => {
   ];
 
   return (
-    <div className="min-h-screen w-screen w-full bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950">
+    <div className="min-h-screen w-full w-screen bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950 text-white">
       {/* Hero Section */}
       {/* Hero Section */}
       <motion.div
-        className="ai-hero relative flex items-center justify-center overflow-hidden"
+        className="relative h-[60vh] flex items-center justify-center overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
-            alt="AI & Machine Learning"
-            className="w-full h-full object-cover"
+            src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3Dcc?q=80&w=2072"
+           alt="Mobile App Development"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/90 via-dark-950/80 to-dark-950"></div>
         </div>

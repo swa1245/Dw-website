@@ -105,14 +105,14 @@ const SoftwareMaintenance = () => {
     <div className="min-h-screen w-screen w-full bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950 text-white">
       {/* Hero Section */}
       <motion.div 
-        className="relative h-[70vh] flex items-center justify-center overflow-hidden"
+        className="relative h-[60vh] flex items-center justify-center overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
+            src="https://img.freepik.com/free-photo/programming-background-concept_23-2150170128.jpg?ga=GA1.1.402563534.1736440284&semt=ais_incoming"
             alt="Software Maintenance"
             className="w-full h-full object-cover object-center"
           />
@@ -143,15 +143,7 @@ const SoftwareMaintenance = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            {tools.map((tool, index) => (
-              <div 
-                key={index}
-                className="px-4 py-2 bg-dark-800/50 backdrop-blur-sm rounded-full border border-dark-700"
-              >
-                <span className="text-xl mr-2">{tool.icon}</span>
-                <span className="font-medium">{tool.name}</span>
-              </div>
-            ))}
+          
           </motion.div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-dark-900/60 to-dark-900/90"></div>

@@ -47,7 +47,7 @@ const Portfolio = () => {
     },
     {
       title: "Smart Home System",
-      category: "iot",
+      category: "IoT",
       description: "IoT-based home automation and monitoring system.",
       image:
         "https://img.freepik.com/free-photo/digital-tablet-screen-with-smart-home-controller-wooden-table_53876-98547.jpg?ga=GA1.1.373861391.1735111696&semt=ais_hybrid",
@@ -117,12 +117,12 @@ const Portfolio = () => {
           </p>
         </div>
       </section>
-      <div className="max-w-7xl mx-auto">
+      <div className="container-custom py-8">
         <div
-          className="flex justify-center mt-8 mb-12 space-x-4"
+          className="flex flex-wrap  gap-4 justify-center"
           data-aos="fade-up"
         >
-          {["all", "web", "mobile", "iot", "ai"].map((category) => (
+          {["all", "web", "mobile", "IoT", "ai"].map((category) => (
             <motion.button
               key={category}
               whileHover={{ scale: 1.05 }}
@@ -139,7 +139,7 @@ const Portfolio = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <motion.div
               key={index}

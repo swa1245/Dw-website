@@ -29,10 +29,12 @@ import Finance from './pages/projects/Finance';
 import SmartHome from './pages/projects/SmartHome';
 import AiContent from './pages/projects/AiContent';
 import SupplyChain from './pages/projects/SupplyChain';
+import ScrollToTop from '../src/ScrollToTop';
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop/>
       <div className="min-h-screen w-screen overflow-hidden bg-dark-900 text-white">
         <Navbar />
         <main className='w-screen'>

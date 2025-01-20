@@ -205,16 +205,16 @@ const ItInfrac = () => {
         </div>
       </section> */}
       <motion.div
-        className="ai-hero relative flex items-center justify-center overflow-hidden"
+        className="h-[60vh] relative flex items-center justify-center overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
       >
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
-            // alt="AI & Machine Learning"
-            className="w-full h-full object-cover"
+            src="https://img.freepik.com/free-photo/cyber-security-protection-firewall-interface-concept_53876-125636.jpg?ga=GA1.1.402563534.1736440284&semt=ais_incoming"
+             alt="Mobile App Development"
+            className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-dark-950/90 via-dark-950/80 to-dark-950"></div>
         </div>

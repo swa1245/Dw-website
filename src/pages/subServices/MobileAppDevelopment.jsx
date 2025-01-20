@@ -160,15 +160,7 @@ const MobileAppDevelopment = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.6 }}
           >
-            {platforms.map((platform, index) => (
-              <div
-                key={index}
-                className="px-6 py-3 bg-dark-800/50 backdrop-blur-sm rounded-full border border-dark-700"
-              >
-                <span className="text-2xl mr-2">{platform.icon}</span>
-                <span className="font-medium">{platform.name}</span>
-              </div>
-            ))}
+           
           </motion.div>
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-dark-900/60 to-dark-900/90"></div>

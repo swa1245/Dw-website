@@ -112,7 +112,7 @@ const AIMachineLearning = () => {
     <div className="min-h-screen w-screen w-full bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950 text-white">
       {/* Hero Section */}
       <motion.div 
-        className="ai-hero relative flex items-center justify-center overflow-hidden"
+        className=" relative h-[60vh] flex items-center justify-center overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
@@ -147,17 +147,7 @@ const AIMachineLearning = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            {technologies.map((tech, index) => (
-              <motion.div 
-                key={index}
-                className="tech-badge  px-6 py-3 rounded-full"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <span className="text-2xl mr-3">{tech.icon}</span>
-                <span className="font-medium text-lg">{tech.name}</span>
-              </motion.div>
-            ))}
+            
           </motion.div>
         </div>
 
