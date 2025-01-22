@@ -286,7 +286,7 @@ const ResourceOutsourcing = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Let's work together to bring your vision to life with our
+              Lets work together to bring your vision to life with our
               innovative solutions.
             </p>
             <Link
